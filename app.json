@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MyFirstApp",
-    "slug": "MyFirstApp",
+    "slug": "myfirstapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -53,8 +53,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "919786d8-5322-48ac-8e18-db71c4806688"
+        "projectId": "20441bb1-6340-469d-ae69-5edc7c10e7c2"
       }
-    }
+    },
+    "owner": "jaideep_venkata_ramana_sai_revuru"
   }
 }

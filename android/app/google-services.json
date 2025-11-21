@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "33221618094",
+    "project_id": "exponotifications-c547d",
+    "storage_bucket": "exponotifications-c547d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33221618094:android:d5eba11e8e6942dc40c03f",
+        "android_client_info": {
+          "package_name": "com.myfirstapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgqm-v0t4v8PF4QxUbKtxVgoxObTirSok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
