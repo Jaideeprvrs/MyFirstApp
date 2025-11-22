@@ -8,6 +8,7 @@
     "scheme": "myfirstapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "jsEngine": "hermes",
     "updates": {
       "url": "https://u.expo.dev/20441bb1-6340-469d-ae69-5edc7c10e7c2"
     },
@@ -32,7 +33,8 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.myfirstapp",
       "googleServicesFile": "./android/app/google-services.json",
-      "runtimeVersion": "1.0.0"
+      "runtimeVersion": "1.0.0",
+      "enableSeparateBuildPerCPUArchitecture": true
     },
     "web": {
       "output": "static",
