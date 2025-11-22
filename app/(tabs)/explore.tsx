@@ -17,7 +17,7 @@ export default function TabTwoScreen() {
         />
       }
     >
-      <ThemedText>Testing OTA Updated with Expo.</ThemedText>
+      <ThemedText>Testing OTA Update with Expo.</ThemedText>
     </ParallaxScrollView>
   );
 }
