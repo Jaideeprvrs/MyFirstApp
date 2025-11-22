@@ -1,15 +1,25 @@
 {
   "expo": {
     "name": "MyFirstApp",
-    "slug": "MyFirstApp",
+    "slug": "myfirstapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myfirstapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "updates": {
+      "url": "https://u.expo.dev/20441bb1-6340-469d-ae69-5edc7c10e7c2"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.myfirstapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +29,10 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.myfirstapp",
+      "googleServicesFile": "./android/app/google-services.json",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "output": "static",
@@ -43,6 +56,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "20441bb1-6340-469d-ae69-5edc7c10e7c2"
+      }
+    },
+    "owner": "jaideep_venkata_ramana_sai_revuru"
   }
 }

@@ -1,0 +1,12 @@
+name: Create Production Builds
+on:
+  push:
+    branches:
+      - feature/pushNotifications # 👈 THIS controls CI/CD
+jobs:
+  build_android:
+    type: build # This job type creates a production build for Android
+    params:
+      platform: android
+      profile: development
+      auto_increment: version
